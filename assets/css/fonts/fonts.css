@@ -1,0 +1,128 @@
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-DemiItalic.eot');src:local('AvenirNextCyr-DemiItalic'),
+url('hinted-AvenirNextCyr-DemiItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-DemiItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-DemiItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr Ultra';src:url('hinted-AvenirNextCyr-UltraLight.eot');src:local('AvenirNextCyr-UltraLight'),
+url('hinted-AvenirNextCyr-UltraLight.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-UltraLight.woff') format('woff'),
+url('hinted-AvenirNextCyr-UltraLight.ttf') format('truetype');font-weight:200;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-LightItalic.eot');src:local('AvenirNextCyr-LightItalic'),
+url('hinted-AvenirNextCyr-LightItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-LightItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-LightItalic.ttf') format('truetype');font-weight:300;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Bold.eot');src:local('AvenirNextCyr-Bold'),
+url('hinted-AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Bold.woff') format('woff'),
+url('hinted-AvenirNextCyr-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Italic.eot');src:local('AvenirNextCyr-Italic'),
+url('hinted-AvenirNextCyr-Italic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Italic.woff') format('woff'),
+url('hinted-AvenirNextCyr-Italic.ttf') format('truetype');font-weight:normal;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Thin.eot');src:local('AvenirNextCyr-Thin'),
+url('hinted-AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Thin.woff') format('woff'),
+url('hinted-AvenirNextCyr-Thin.ttf') format('truetype');font-weight:100;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Heavy.eot');src:local('AvenirNextCyr-Heavy'),
+url('hinted-AvenirNextCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Heavy.woff') format('woff'),
+url('hinted-AvenirNextCyr-Heavy.ttf') format('truetype');font-weight:900;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Light.eot');src:local('AvenirNextCyr-Light'),
+url('hinted-AvenirNextCyr-Light.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Light.woff') format('woff'),
+url('hinted-AvenirNextCyr-Light.ttf') format('truetype');font-weight:300;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Demi.eot');src:local('AvenirNextCyr-Demi'),
+url('hinted-AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Demi.woff') format('woff'),
+url('hinted-AvenirNextCyr-Demi.ttf') format('truetype');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-ThinItalic.eot');src:local('AvenirNextCyr-ThinItalic'),
+url('hinted-AvenirNextCyr-ThinItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-ThinItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-ThinItalic.ttf') format('truetype');font-weight:100;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-HeavyItalic.eot');src:local('AvenirNextCyr-HeavyItalic'),
+url('hinted-AvenirNextCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-HeavyItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-HeavyItalic.ttf') format('truetype');font-weight:900;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr Ultra';src:url('hinted-AvenirNextCyr-UltraLightIt.eot');src:local('AvenirNextCyr-UltraLightIt'),
+url('hinted-AvenirNextCyr-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-UltraLightIt.woff') format('woff'),
+url('hinted-AvenirNextCyr-UltraLightIt.ttf') format('truetype');font-weight:200;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-BoldItalic.eot');src:local('AvenirNextCyr-BoldItalic'),
+url('hinted-AvenirNextCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-BoldItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-BoldItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Regular.eot');src:local('AvenirNextCyr-Regular'),
+url('hinted-AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Regular.woff') format('woff'),
+url('hinted-AvenirNextCyr-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Medium.eot');src:local('AvenirNextCyr-Medium'),
+url('hinted-AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Medium.woff') format('woff'),
+url('hinted-AvenirNextCyr-Medium.ttf') format('truetype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-MediumItalic.eot');src:local('AvenirNextCyr-MediumItalic'),
+url('hinted-AvenirNextCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-MediumItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-MediumItalic.ttf') format('truetype');font-weight:500;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-DemiItalic.eot');src:local('AvenirNextCyr-DemiItalic'),
+url('hinted-AvenirNextCyr-DemiItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-DemiItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-DemiItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-LightItalic.eot');src:local('AvenirNextCyr-LightItalic'),
+url('hinted-AvenirNextCyr-LightItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-LightItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-LightItalic.ttf') format('truetype');font-weight:300;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Demi.eot');src:local('AvenirNextCyr-Demi'),
+url('hinted-AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Demi.woff') format('woff'),
+url('hinted-AvenirNextCyr-Demi.ttf') format('truetype');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-BoldItalic.eot');src:local('AvenirNextCyr-BoldItalic'),
+url('hinted-AvenirNextCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-BoldItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-BoldItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Light.eot');src:local('AvenirNextCyr-Light'),
+url('hinted-AvenirNextCyr-Light.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Light.woff') format('woff'),
+url('hinted-AvenirNextCyr-Light.ttf') format('truetype');font-weight:300;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Regular.eot');src:local('AvenirNextCyr-Regular'),
+url('hinted-AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Regular.woff') format('woff'),
+url('hinted-AvenirNextCyr-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Bold.eot');src:local('AvenirNextCyr-Bold'),
+url('hinted-AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Bold.woff') format('woff'),
+url('hinted-AvenirNextCyr-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Medium.eot');src:local('AvenirNextCyr-Medium'),
+url('hinted-AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Medium.woff') format('woff'),
+url('hinted-AvenirNextCyr-Medium.ttf') format('truetype');font-weight:500;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Heavy.eot');src:local('AvenirNextCyr-Heavy'),
+url('hinted-AvenirNextCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Heavy.woff') format('woff'),
+url('hinted-AvenirNextCyr-Heavy.ttf') format('truetype');font-weight:900;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Italic.eot');src:local('AvenirNextCyr-Italic'),
+url('hinted-AvenirNextCyr-Italic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Italic.woff') format('woff'),
+url('hinted-AvenirNextCyr-Italic.ttf') format('truetype');font-weight:normal;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-MediumItalic.eot');src:local('AvenirNextCyr-MediumItalic'),
+url('hinted-AvenirNextCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-MediumItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-MediumItalic.ttf') format('truetype');font-weight:500;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-ThinItalic.eot');src:local('AvenirNextCyr-ThinItalic'),
+url('hinted-AvenirNextCyr-ThinItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-ThinItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-ThinItalic.ttf') format('truetype');font-weight:100;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-HeavyItalic.eot');src:local('AvenirNextCyr-HeavyItalic'),
+url('hinted-AvenirNextCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-HeavyItalic.woff') format('woff'),
+url('hinted-AvenirNextCyr-HeavyItalic.ttf') format('truetype');font-weight:900;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr Ultra';src:url('hinted-AvenirNextCyr-UltraLight.eot');src:local('AvenirNextCyr-UltraLight'),
+url('hinted-AvenirNextCyr-UltraLight.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-UltraLight.woff') format('woff'),
+url('hinted-AvenirNextCyr-UltraLight.ttf') format('truetype');font-weight:200;font-style:normal;}
+@font-face{font-family:'Avenir Next Cyr Ultra';src:url('hinted-AvenirNextCyr-UltraLightIt.eot');src:local('AvenirNextCyr-UltraLightIt'),
+url('hinted-AvenirNextCyr-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-UltraLightIt.woff') format('woff'),
+url('hinted-AvenirNextCyr-UltraLightIt.ttf') format('truetype');font-weight:200;font-style:italic;}
+@font-face{font-family:'Avenir Next Cyr';src:url('hinted-AvenirNextCyr-Thin.eot');src:local('AvenirNextCyr-Thin'),
+url('hinted-AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'),
+url('hinted-AvenirNextCyr-Thin.woff') format('woff'),
+url('hinted-AvenirNextCyr-Thin.ttf') format('truetype');font-weight:100;font-style:normal;}
