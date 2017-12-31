@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<title>SmartPourer</title>
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="assets/img/favicon/manifest.json">
+		<link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#242424">
+		<link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="SmartPourer">
+		<meta name="application-name" content="SmartPourer">
+		<meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		
+		<meta name="description" content="A smart pouring spout that controls consumption of alcohol and entertains you and your friends. Smart Pourer keeps your health safe and stable." />
+		<meta name="keywords" content= "SmartPourer,Spourer,pourer,smart,drink,drinks,cocktails,spirit,bottle,spout,kickstarter,startup" />
+		
+		
+		<meta property="og:locale" content="En_en"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:title" content="SmartPourer"/>
+		<meta property="og:description" content="A smart pouring spout that controls consumption of alcohol and entertains you and your friends. Smart Pourer keeps your health safe and stable."/>
+		<meta property="og:image" content="assets/img/logo.svg"/>
+		<meta property="og:site_name" content="SmartPourer"/>
+		
+		
+		<meta name="twitter:title" content="SmartPourer">
+		<meta name="twitter:description" content="A smart pouring spout that controls consumption of alcohol and entertains you and your friends. Smart Pourer keeps your health safe and stable.">
+		<meta name="twitter:image" content="assets/img/logo.svg">
+		
+		<meta itemprop="name" content="SmartPourer"/>
+		<meta itemprop="description" content="A smart pouring spout that controls consumption of alcohol and entertains you and your friends. Smart Pourer keeps your health safe and stable."/>
+		<meta itemprop="image" content="assets/img/logo.svg"/>
+		
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-109672559-1', 'auto');
+ga('send', 'pageview');
+ setTimeout("ga('send','event','Engaged users','More than 15 seconds')",15000); 
+</script>
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter46653999 = new Ya.Metrika({ id:46653999, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/46653999" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+	</head>
+	
+	<body>
+		
+		<!-- HEADER -->
+		
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+			
+			<a class="navbar-brand header_logo" href="#"><img src="assets/img/logo.svg" alt="logo"></a>
+			
+			<div class="header_right">
+				<!--a href="https://goo.gl/o9dVwv" target="_blank" class="kickst d-md-inline-block d-none"><img src="assets/img/kickstarter.png" alt="kickstarter"></a-->
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+			</div>
+			<div class="collapse navbar-collapse toogler_navbar" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto text-right">
+					<li class="nav-item active">
+						<a class="nav-link" href="#about">About SmartPourer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#advantage">Advantage</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#techspecs">Tech Specs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#apps">App</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#team">Team</a>
+					</li>
+					<!--li class="nav-item">
+						<a class="nav-link" href="#">Social Media</a>
+					</li-->
+					<li class="nav-item">
+						<a class="nav-link" href="#contacts">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/app/">Web application</a>
+					</li>
+				</li>
+				<li class="nav-item">
+					<!--a href="https://goo.gl/o9dVwv" target="_blank" class="kickst d-inline-block d-md-none"><img src="assets/img/kickstarter.png" alt="kickstarter" width="200px"></a-->
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	<!-- Slide 1 -->
+	
+	<section class="container-fluid f_block h-100" id="about">
+		<div class="row h-100">
+			<div class="ml-auto right_text my-5 my-xl-auto">
+				<p class="title">This is SmartPourer</p>
+				<p class="text mx-auto">
+					A smart pouring spout that controls consumption of alcohol and entertains you and your friends. Smart Pourer keeps your health safe and stable.
+					<!--a href="https://goo.gl/o9dVwv" target="_blank"><img src="assets/img/kickstarter.png" alt="kickstarter"></a-->
+				</p>
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	<!-- Slide 2 -->
+	
+	<section class="container-fluid s_block h-75">
+		<div class="row h-100">
+			<div class="ml-lg-auto right_text my-2 my-lg-auto">
+				<p class="title">Time To Drive</p>
+				<p class="text ml-auto">
+					SmartPourer informs you in advance about the time you can get behind the wheel after drinking. Set the presumable driving time and the device will calculate and limit your alcohol consumption.
+				</p>
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	<!-- Slide 3 -->
+	
+	<section class="container-fluid t_block h-75">
+		<div class="row h-100">
+			<div class="mr-lg-auto right_text my-2 my-lg-auto">
+				<p class="title">Drinking Games</p>
+				<p class="text mr-auto">
+					SmartPourer is the best device for any alcohol occasion. Thanks to the entertainment section in our App, which contains different games and quizzes, you can have a lot of fun spending quality leisure time with your friends.
+				</p>
+			</div>
+		</div>
+		
+	</section>
+	
+	<!-- Slide 4 -->
+	
+	<section class="container-fluid fo_block h-75">
+		<div class="row h-100">
+			<div class="ml-lg-auto right_text my-2 my-lg-auto">
+				<p class="title">Perfect Cocktail</p>
+				<p class="text ml-auto">
+				SmartPourer takes mixing of cocktails at home to the next level. The device provides recipes, automatically identifies poured alcohol and measures its amount in the right proportions.
+					
+				</p>
+			</div>
+		</div>
+		
+	</section>
+	
+	<!-- Slide 5 -->
+	
+	<section class="container-fluid fi_block" id="advantage">
+		<div class="row">
+			<p class="slide_title">advantage</p>
+			<div class="col-2 d-none d-xl-block">
+			</div>
+			<div class="col-12 col-xl-8 main_block">
+				
+				<div class="row">
+					
+					<div class="col-12 col-lg-6">
+						<p class="title">Keep The Track Of Events </p>
+						<p class="text">
+							SmartPourer stores statistics of your alcohol consumption and prevents users from alcohol overuse.
+						</p>
+					</div>
+					
+					<div class="col-12 col-lg-6">
+						<p class="title">Be drink responsible</p>
+						<p class="text">
+							SmartPourer keeps track of your condition and alerts about oncoming intoxication.
+						</p>
+					</div>
+					
+				</div>
+				
+				<div class="row">
+					
+					<div class="col-12 col-lg-6">
+						<p class="title">A Party To Remember</p>
+						<p class="text">
+							SmartPourer accurately calculates appropriate limits of alcohol according to your physiological parameters and maintains the alcohol balance.
+						</p>
+					</div>
+					
+					<div class="col-12 col-lg-6">
+						<p class="title">Home Bar</p>
+						<p class="text">
+							SmartPourer identifies any alcohol drink and shows the residue of spirit in a bottle.
+						</p>
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="col-12 col-md-4 right_block">
+				
+				
+			</div>
+			<div class="col-2 d-none d-xl-block"></div>
+			
+		</div>
+		
+	</section>
+	
+	
+	
+	<!-- Slide 6 -->
+	
+	<section class="container-fluid si_block" id="techspecs">
+		<div class="wrap">
+			<p class="slide_title">tech specs</p>
+			<img src="assets/img/s6/1.png" alt="tech specs">
+		</div>
+		
+	</section>
+	
+	
+	<!-- Slide 7 -->
+	
+	<section class="container-fluid se_block" id="apps">
+		<div class="row h-100">
+			<p class="slide_title">app</p>
+			
+			
+			<div class="owl-carousel gal-owl">
+				
+				<img src="assets/img/s7/1.png" alt="SmartPourer">
+				<img src="assets/img/s7/2.png" alt="SmartPourer">
+				<img src="assets/img/s7/3.png" alt="SmartPourer">
+				<img src="assets/img/s7/4.png" alt="SmartPourer">
+				<img src="assets/img/s7/5.png" alt="SmartPourer">
+				<img src="assets/img/s7/6.png" alt="SmartPourer">
+				<img src="assets/img/s7/7.png" alt="SmartPourer">
+			</div>
+			
+			<div class="dowb mx-auto mt-5">
+				<!--a href="#"><img src="assets/img/s7/a.png" alt="download"></a-->
+				<a href="https://play.google.com/apps/testing/com.spourer.client.android.smartpourer"><img src="assets/img/s7/p.png" alt="download"></a>
+			</div>
+			
+		</div>
+		
+	</section>
+	
+	
+	<!-- Slide 8 -->
+	
+	<section class="container-fluid e_block" id="team">
+		<p class="slide_title">team</p> <br>
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<div class="row">
+					<div class="col-12 col-lg-6 col-xl-4 team_h">
+						<img src="assets/img/s8/1.jpg" alt="team">
+						<p class="title">Siarhei Sadouski</p>
+						<p class="text">idea author, project coordinator, java backend developer</p>
+					</div>
+					<div class="col-12 col-lg-6 col-xl-4 team_h">
+						<img src="assets/img/s8/2.jpg" alt="team">
+						<p class="title">Ihar Mikalayeu
+						</p>
+						<p class="text">iOS developer</p>
+					</div>
+					<div class="col-12 col-lg-6 col-xl-4 team_h">
+						<img src="assets/img/s8/3.jpg" alt="team">
+						<p class="title">Vitaly Sheuka</p>
+						<p class="text">android & hardware developer
+						</p>
+					</div>
+					<div class="col-12 col-lg-6 col-xl-4 team_h">
+						<img src="assets/img/s8/4.jpg" alt="team">
+						<p class="title">Raman Susla</p>
+						<p class="text">web frontend, android developer</p>
+					</div>
+					<div class="col-12 col-lg-6 col-xl-4 team_h">
+						<img src="assets/img/s8/5.jpg" alt="team">
+						<p class="title">Kanstantsin Mikhailau</p>
+						<p class="text">java backend developer</p>
+					</div>
+					<div class="col-12 col-lg-6 col-xl-4 team_h">
+						<img src="assets/img/s8/6.jpg" alt="team">
+						<p class="title">Eugene Kortelyov</p>
+						<p class="text">java backend and database developer</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-2"></div>
+		</div>
+		
+	</section>
+	
+	
+	
+	<!-- Slide 9 -->
+	
+	<!--section class="container-fluid n_block">
+		<p class="slide_title">mass media</p>
+		<div class="row h-100">
+			
+			<div class="col-2"></div>
+			<div class="col-8 items_block">
+				<div class="row">
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+					<div class="col-12 col-lg-6 col-xl-4 adv_i"></div>
+				</div>
+			</div>
+			<div class="col-2"></div>
+			
+		</div>
+	</section>
+	
+	
+	
+	
+	<!-- Slide footer -->
+	
+	<footer class="container-fluid footer_block" id="contacts">
+		<div class="row h-100">
+			
+			<div class="col-2 d-none d-lg-block"></div>
+			<div class="col-12 col-lg-8">
+				<div class="row">
+					<div class="col-12 col-lg-6 wrap">
+						<p class="title">Connect</p>
+						
+						<a href="https://www.facebook.com/sPourer/" class="soc"><img src="assets/img/footer/fb.svg" alt="">facebook</a>
+						<a href="https://www.instagram.com/smartpourer/" class="soc"><img src="assets/img/footer/in.svg" alt="">instagram</a>
+						<a href="https://www.youtube.com/channel/UCsGHcMgqkXvNpPhA9Pp0rFg" class="soc"><img src="assets/img/footer/you.svg" alt="">youtube</a>
+						<a href="https://twitter.com/SmartPourer" class="soc"><img src="assets/img/footer/t.svg" alt="">twitter</a>
+						
+					</div>
+					<div class="col-12 col-lg-6 wrap">
+						
+						<p class="title">Sign up for updates</p>
+						<p class="text">
+							Sign up for regular updatesabout our news, updates and special offers.
+						</p>
+						<form action="https://spourer.us17.list-manage.com/subscribe/post?u=b444f549b9217e1d1e4fc9b65&amp;id=060a36c8d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+    <div id="subscribe"><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b444f549b9217e1d1e4fc9b65_060a36c8d8" tabindex="-1" value=""></div>
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+						
+					</div>
+				</div>
+<div class="row copyright"><span>&copy; sPourer CO.<a href="mailto:info@spourer.com" class="policy">info@spourer.com</a><a href="/TermsOfUse.pdf" class="policy">Terms</a><a href="/PrivacyPolicy.pdf" class="policy">Privacy</a></span></div>
+			</div>
+			<div class="col-2 d-none d-lg-block"></div>
+			
+		</div>
+	</footer>
+	
+	
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- Owl.Carousel -->
+	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+	<!-- Custom -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	
+	
+</body>
+
+</html>
